@@ -5,6 +5,10 @@ body{
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: black;
   display: flex; 
@@ -245,8 +249,93 @@ body {
   font-size: 20px;
 }
 
-html {
-  scroll-behavior: smooth;
+
+
+.project-section{
+  font-family:'Bungee Hairline' ;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.project-section h1{
+  font-size:38px;
+  letter-spacing: 4px;
+}
 
+.project-tabs{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.project-tabs a{
+  font-family:'Bungee Hairline' ;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  font-weight:600;
+}
+
+.project-tabs button{
+  background-color: #eeeeee;
+  text-decoration: none;
+  width: 600px;
+  border-radius: 30px;
+  height: 60px;
+  gap: 40px;
+  padding: 60px;
+  margin-top: 40px;
+  border: none;
+  animation: 1s infinite alternate ease-out breathing-color--dark;
+  padding-bottom: 80px;
+  
+}
+
+.project-tabs button:hover{
+  box-shadow: 0 0 5px rgb(245, 255, 255), 0 0 15px rgb(237, 253, 253), 0 0 20px rgb(223, 248, 248), 0 0 50px rgb(224, 247, 247), 0 0 50px rgb(233, 255, 255);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes breathing-color--dark {
+  from
+  {
+      background-color: black;
+  }
+  to
+  {
+      background-color: hsl(0, 0%, 12%);
+  }
+}
+
+.hr1{
+  width: 80%;
+  background-color: #292929;
+  height: 2px;
+  margin-left: 80px;
+  margin-top: 50px;
+  opacity: 60%;
+}
+
+.EH{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family:'Bungee Hairline';
+}
+
+.EH p{
+  font-size: 28px;
+  font-weight:600;
+  color: #bbb9b9;
+}
+
+.EH h1{
+  font-size: 38px;
+}
