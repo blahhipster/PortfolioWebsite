@@ -1,0 +1,113 @@
+.rating {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(130, 118, 100, 1) 0%,
+      rgba(38, 62, 82, 1) 100%,
+      rgba(170, 69, 69, 1) 100%,
+      rgba(214, 214, 36, 1) 100%
+    );
+    width: 400px;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    margin: 300px auto;
+    max-height: 500px;
+    text-align: left;
+    text-overflow: inherit;
+  }
+  
+
+  h2{
+    text-align: left;
+  }
+  
+  #button1{
+    padding: 15px 20px;
+    border-radius: 80px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(102, 107, 110);
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+  }
+
+  #button2{
+    padding: 15px 100px;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(228, 162, 19);
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 10px;
+  }
+
+  #button1:hover{
+    background-color:rgb(54, 55, 56) ;
+    cursor: pointer;
+  }
+
+  #button1.selected {
+    background-color: rgb(54, 55, 56);
+    color: white;
+    font-weight: bold;
+}
+
+
+  #button2:hover{
+    background-color:rgb(212, 146, 2);
+    cursor: pointer;
+  }
+
+  p{
+    color: rgb(189, 186, 186);
+  }
+
+  .thank-you{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(130, 118, 100, 1) 0%,
+      rgba(38, 62, 82, 1) 100%,
+      rgba(170, 69, 69, 1) 100%,
+      rgba(214, 214, 36, 1) 100%
+    );
+    width: 400px;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    margin: 300px auto;
+    max-height: 500px;
+    text-align: left;
+    text-overflow: inherit;
+  }
+  #thanksP{
+    color: rgb(212, 146, 2);
+    border: 1px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(54, 55, 56);
+  }
+
+  #img1{
+    margin-right: 400px;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: rgb(72, 74, 76);
+  }

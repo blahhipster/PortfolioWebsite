@@ -1,0 +1,252 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color:rgb(185, 185, 185);
+}
+
+.logo {
+  font-family: 'Bungee Hairline';
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px; 
+}
+
+.menu ul {
+  font-family: 'Bungee Hairline';
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+hr{
+  width: 95%;
+  border: 0.5px solid rgb(97, 96, 96);
+}
+/* ------------------------------------------------------------- */
+.home{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+  margin-top: -60px;
+}
+
+.home > * {
+  text-align: left; 
+  width: 100%; 
+  max-width: 900px; 
+  font-family: 'Lekton';
+}
+
+.home p{
+  font-size: 20px;
+  color: #B1B1B1;
+  font-weight: bold;
+}
+.home b{
+  color: rgb(255, 255, 255);
+}
+
+.home h1{
+  font-size: 55px;
+}
+
+.h1gradient{
+  background-image: linear-gradient(90deg, #E39600 6.72%, #EA4C89 43.47%, #8F48EB 75.22%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.icons {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  font-size: 30px; /* For font-based icons, use font-size */
+  gap: 30px;
+}
+
+.icons img {
+  display: flex;
+  width: 30px; /* For image-based icons, ensure they follow this */
+  height: 30px;
+}
+
+.icons svg {
+  display: flex;
+  width: 30px; /* For SVGs, set width and height directly */
+  height: 30px;
+}
+
+.hr{
+    width: 80%;
+    background-color: #292929;
+    height: 2px;
+    margin-left: 80px;
+    opacity: 60%;
+}
+
+/* ------------------------------------------------------------- */
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.experience-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 50px 15px;
+  color: white;
+  font-family: 'Bungee Hairline';
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.timeline-bar {
+  width: 200px;
+  height: 1600px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 54px;
+
+  /* Gradient Colors */
+  background: linear-gradient(179deg, #e39600, #ea4c89, #8f48eb, #e39600);
+  background-size: 400% 400%;
+
+  /* Continuous Animation */
+  animation: gradientAnimation 8s ease infinite;
+}
+
+.experience-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+}
+
+.experience-content h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.experience-content p {
+  font-size: 18px;
+  color: #b1b1b1;
+  font-weight: bold;
+
+}
+
+.left {
+  text-align: right;
+  padding-right: 20px;
+  margin-right: 160px;
+}
+
+.right {
+  text-align: left;
+  padding-left: 20px;
+  row-gap: 100px;
+
+}
+
+.second{
+  margin-top: 230px;
+}
+
+.third{
+  margin-top: 80px;
+}
+
+.fourth{
+  margin-top: 110px;
+}
+
+.contactsection{
+  display: flex;
+  flex-direction: column;
+  font-family:'Bungee Hairline' ;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+  row-gap: 10px;
+}
+
+.bye{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.email{
+  font-weight: bold;
+  color: gainsboro;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
