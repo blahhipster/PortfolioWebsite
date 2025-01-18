@@ -63,7 +63,7 @@ hr{
   width: 95%;
   border: 0.5px solid rgb(97, 96, 96);
 }
-/* ------------------------------------------------------------- */
+
 .home{
   display: flex;
   min-height: 100vh;
@@ -105,19 +105,19 @@ hr{
   display: flex;
   width: 30px;
   height: 30px;
-  font-size: 30px; /* For font-based icons, use font-size */
+  font-size: 30px; 
   gap: 30px;
 }
 
 .icons img {
   display: flex;
-  width: 30px; /* For image-based icons, ensure they follow this */
+  width: 30px; 
   height: 30px;
 }
 
 .icons svg {
   display: flex;
-  width: 30px; /* For SVGs, set width and height directly */
+  width: 30px; 
   height: 30px;
 }
 
@@ -128,8 +128,6 @@ hr{
     margin-left: 80px;
     opacity: 60%;
 }
-
-/* ------------------------------------------------------------- */
 
 body {
   background-color: black;
@@ -173,12 +171,8 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 54px;
-
-  /* Gradient Colors */
   background: linear-gradient(179deg, #e39600, #ea4c89, #8f48eb, #e39600);
   background-size: 400% 400%;
-
-  /* Continuous Animation */
   animation: gradientAnimation 8s ease infinite;
 }
 
@@ -198,7 +192,6 @@ body {
   font-size: 18px;
   color: #b1b1b1;
   font-weight: bold;
-
 }
 
 .left {
@@ -211,7 +204,6 @@ body {
   text-align: left;
   padding-left: 20px;
   row-gap: 100px;
-
 }
 
 .second{
@@ -249,8 +241,6 @@ body {
   font-size: 20px;
 }
 
-
-
 .project-section{
   font-family:'Bungee Hairline' ;
   color: white;
@@ -268,7 +258,6 @@ body {
 .project-tabs{
   display: flex;
   flex-direction: column;
-  
 }
 
 .project-tabs a{
@@ -292,7 +281,6 @@ body {
   border: none;
   animation: 1s infinite alternate ease-out breathing-color--dark;
   padding-bottom: 80px;
-  
 }
 
 .project-tabs button:hover{
@@ -338,4 +326,111 @@ body {
 
 .EH h1{
   font-size: 38px;
+}
+
+.expM{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+
+  .logo p{
+    margin-left: -35px;
+  }
+
+  .home{
+    margin-bottom: 40px;
+  }
+
+  .home h1,
+  .home p {
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 18px;
+  }
+
+  .h1gradient {
+    font-size: 22px;
+  }
+
+  .experience-section {
+    display: none;
+  }
+  .timeline-bar {
+    display: none;
+  }
+  
+  .project-section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .project-tabs button {
+    width: auto;
+    padding: 10px 20px;
+  }
+
+  .project-tabs a{
+    font-family:'Bungee Hairline' ;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    font-weight:600;
+  }
+
+  .project-section h1{
+    font-size:20px;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  .contactsection {
+    row-gap: 20px;
+  }
+
+  .expM{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:'Bungee Hairline' ;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .expM img{
+    margin-left: 17px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 60px;
+  }
+
+  .hgs .hgsimg{
+    margin-left: 30px;
+  }
+
+  .hr{
+    width: 400px;
+    margin: 0;
+  }
+  .hr1{
+    width: 400px;
+    margin: 0;
+  }
+
+  .home .intro{
+    margin-top: 100px;
+  }
 }
