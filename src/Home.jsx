@@ -16,8 +16,7 @@ function Homes() {
           and projects.
         </p>
         <p>
-          Currently working at Amazon, but <b>I'm looking to change</b> and I’m eager to bring my drive and enthusiasm to a 
-          company that values creativity and collaboration.
+          <b>Ex-Amazonian</b> eager to bring my passion and dedication to a company that values creativity, collaboration, and impactful contributions.
         </p>
         <div className="icons">
           <a href="https://www.linkedin.com/in/yashasbalram/" target="_blank" rel="noopener noreferrer">
